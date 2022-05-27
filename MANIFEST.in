@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jamiat_ul_huffaz *.css
+recursive-include jamiat_ul_huffaz *.csv
+recursive-include jamiat_ul_huffaz *.html
+recursive-include jamiat_ul_huffaz *.ico
+recursive-include jamiat_ul_huffaz *.js
+recursive-include jamiat_ul_huffaz *.json
+recursive-include jamiat_ul_huffaz *.md
+recursive-include jamiat_ul_huffaz *.png
+recursive-include jamiat_ul_huffaz *.py
+recursive-include jamiat_ul_huffaz *.svg
+recursive-include jamiat_ul_huffaz *.txt
+recursive-exclude jamiat_ul_huffaz *.pyc
