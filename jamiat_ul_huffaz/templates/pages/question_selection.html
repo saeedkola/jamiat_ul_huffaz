@@ -1,0 +1,41 @@
+<div class="container">
+	<div class="row question-selection-header" data-participant='{{participant.name}}'>
+		<div class="col">
+			<div style="width:100%">
+				<p>Name</p>
+				<h2>{{participant.contestant_name}}</h2>
+			</div>
+		</div>
+		<div class="col">
+			<div style="width:100%">
+				<p>#</p>
+				<h2>{{participant.name}}</h2>
+			</div>			
+		</div>
+		<div class="col">
+			<div style="width:100%">
+				<p>Group</p>
+				<h2>{{participant.group}}</h2>
+			</div>
+		</div>
+	</div>
+	<div class="row">		
+			{% for qg in question_groups %}
+			<div class="col-md-2">
+				<button type="button" class="btn btn-primary btn-xl question-group-selection" data-qg='{{qg.name}}' style="width:100%">{{qg.name}}</button>
+			</div>
+		  	
+		  	{% endfor %}		
+	</div>
+</div>
+
+<style type="text/css">
+	
+.question-group-selection {
+  font-size: 2.5rem;
+}
+header{
+	display: none !important;
+}
+</style>
+

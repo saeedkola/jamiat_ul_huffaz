@@ -145,6 +145,8 @@ app_license = "MIT"
 # User Data Protection
 # --------------------
 
+app_include_css = "/assets/css/juh.css"
+
 user_data_fields = [
 	{
 		"doctype": "{doctype_1}",

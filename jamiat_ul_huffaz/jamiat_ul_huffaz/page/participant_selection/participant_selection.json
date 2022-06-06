@@ -1,0 +1,23 @@
+{
+ "content": null,
+ "creation": "2022-06-01 21:09:47.098455",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2022-06-01 21:13:56.187260",
+ "modified_by": "Administrator",
+ "module": "Jamiat Ul Huffaz",
+ "name": "participant-selection",
+ "owner": "Administrator",
+ "page_name": "participant-selection",
+ "roles": [
+  {
+   "role": "All"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Select Participant"
+}

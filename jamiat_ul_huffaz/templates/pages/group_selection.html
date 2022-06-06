@@ -1,0 +1,39 @@
+<div class="container">
+	<div class="row group-selection-row">
+		{% for group in pg %}
+		<div class="col group-selection-tile my-auto" data-group="{{group.name}}"> 
+			<div style="width: 100%;">
+				{{group.name}}	
+			</div>			
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-body" id="participant-profile">
+			</div>
+		</div>
+	</div>
+</div>
+
+<style type="text/css">
+.group-selection-tile div{
+	border: 1px solid #888888;
+	background: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-weight: bold;
+	font-size:50px;
+	box-shadow: 10px 10px 10px #888888;
+	cursor:pointer;
+}
+
+header{
+	display: none !important;
+}
+</style>

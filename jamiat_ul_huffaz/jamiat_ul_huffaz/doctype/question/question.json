@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "autoname": "Q.###",
+ "creation": "2022-05-31 00:04:01.517448",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "override_ayah",
+  "surah",
+  "ayah_from",
+  "ayah_to",
+  "ayah",
+  "text_indopak",
+  "text_arabic"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "description": "Comma Separated List of Surah and Ayah in the format \n15:1,15:2,15:3 means, Surah 15, Ayah 1,2,3",
+   "fieldname": "ayah",
+   "fieldtype": "Text",
+   "label": "Ayahs"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "text_indopak",
+   "fieldtype": "Long Text",
+   "label": "Text Indopak",
+   "read_only_depends_on": "eval:!doc.override_ayah"
+  },
+  {
+   "fieldname": "text_arabic",
+   "fieldtype": "Long Text",
+   "label": "Text Arabic",
+   "read_only": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "default": "0",
+   "fieldname": "surah",
+   "fieldtype": "Int",
+   "label": "Surah"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ayah_from",
+   "fieldtype": "Int",
+   "label": "Ayah From"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "ayah_to",
+   "fieldtype": "Int",
+   "label": "Ayah To"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "default": "0",
+   "fieldname": "override_ayah",
+   "fieldtype": "Check",
+   "label": "Override Ayah"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-06-06 22:46:45.606352",
+ "modified_by": "Administrator",
+ "module": "Jamiat Ul Huffaz",
+ "name": "Question",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

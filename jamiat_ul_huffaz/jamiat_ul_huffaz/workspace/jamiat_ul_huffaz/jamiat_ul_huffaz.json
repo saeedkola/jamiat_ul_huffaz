@@ -1,0 +1,112 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-06-05 21:07:55.430263",
+ "developer_mode_only": 0,
+ "disable_user_customization": 1,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 1,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Jamiat Ul Huffaz",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Masters & Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Participant",
+   "link_to": "Participant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Question Group",
+   "link_to": "Question Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Participant Group",
+   "link_to": "Participant Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_to": "JUH Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Scoring",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Scorecard",
+   "link_to": "Scorecard",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pages",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Participant Selection",
+   "link_to": "participant-selection",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Question Selection",
+   "link_to": "question-selection",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-06-05 23:03:07.082074",
+ "modified_by": "Administrator",
+ "module": "Jamiat Ul Huffaz",
+ "name": "Jamiat Ul Huffaz",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": []
+}

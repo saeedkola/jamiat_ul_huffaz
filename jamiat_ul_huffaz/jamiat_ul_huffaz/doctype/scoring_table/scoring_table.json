@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "creation": "2022-05-31 14:50:15.603585",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "text_indopak",
+  "question",
+  "yaddasht",
+  "lehn_jaly",
+  "lehn_khafy",
+  "atak",
+  "total_deduction",
+  "total_points"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "question",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Question",
+   "options": "Question",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "yaddasht",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Yaddasht"
+  },
+  {
+   "columns": 2,
+   "fieldname": "lehn_jaly",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lehn Jaly"
+  },
+  {
+   "columns": 2,
+   "fieldname": "lehn_khafy",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Lehn Khafy"
+  },
+  {
+   "columns": 2,
+   "fieldname": "atak",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Atak"
+  },
+  {
+   "columns": 1,
+   "fieldname": "total_deduction",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Deduction",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "total_points",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Points",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "question.text_indopak",
+   "fieldname": "text_indopak",
+   "fieldtype": "Long Text",
+   "label": "Text Indopak",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-01 16:34:20.609633",
+ "modified_by": "Administrator",
+ "module": "Jamiat Ul Huffaz",
+ "name": "Scoring Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

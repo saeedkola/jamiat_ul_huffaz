@@ -1,0 +1,21 @@
+@font-face{
+  font-family: 'SaleemFont';
+  src: url('/files/_PDMS_Saleem_QuranFont.ttf');
+}
+
+@font-face{
+  font-family: 'UthmaniFont';
+  src: url('/files/KFGQPC Uthmanic Script HAFS Regular.otf');
+}
+div[data-fieldname=text_indopak] .control-value, div[data-fieldname=text_indopak] .control-input textarea {
+  direction: rtl !important;
+  text-align: center;
+  font-family: 'SaleemFont';
+  font-size: 40px;
+  
+}
+
+.endayah{
+  font-family: 'UthmaniFont';
+  font-weight: bold;
+}
