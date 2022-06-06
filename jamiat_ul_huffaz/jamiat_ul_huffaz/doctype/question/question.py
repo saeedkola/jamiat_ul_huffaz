@@ -6,7 +6,7 @@ from frappe.model.document import Document
 
 class Question(Document):
 	def validate(self):
-		if not self.override_ayahs:
+		if not self.override_ayah:
 			ayahs = self.ayah
 			surah = self.surah
 			ayah_from = self.ayah_from
