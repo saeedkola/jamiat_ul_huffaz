@@ -14,8 +14,7 @@
    "fieldname": "active_participant",
    "fieldtype": "Link",
    "label": "Active Participant",
-   "options": "Participant",
-   "read_only": 1
+   "options": "Participant"
   },
   {
    "fieldname": "section_break_2",
@@ -31,7 +30,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-06-05 23:07:05.166014",
+ "modified": "2022-06-08 00:23:54.716837",
  "modified_by": "Administrator",
  "module": "Jamiat Ul Huffaz",
  "name": "JUH Settings",

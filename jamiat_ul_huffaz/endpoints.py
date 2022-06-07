@@ -61,7 +61,7 @@ def get_random_participant(group):
 			LIMIT 1""".format(group)
 	participant = frappe.db.sql(sql,as_dict=1)
 	if len(participant):
-		frappe.client.set_value("JUH Settings", "JUH Settings", "active_participant", participant[0]['name'])
+		# frappe.client.set_value("JUH Settings", "JUH Settings", "active_participant", participant[0]['name'])
 		return frappe.render_template('templates/pages/participant_modal.html',participant[0])
 	else:
 		return "<h1 class='text-center'>No More Participants!</h1>"
