@@ -6,6 +6,8 @@
  "engine": "InnoDB",
  "field_order": [
   "question",
+  "surah_name",
+  "juz_number",
   "text_indopak"
  ],
  "fields": [
@@ -23,12 +25,26 @@
    "fieldtype": "Long Text",
    "label": "Text Indopak",
    "read_only": 1
+  },
+  {
+   "fetch_from": "question.surah_name",
+   "fieldname": "surah_name",
+   "fieldtype": "Data",
+   "label": "Surah Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "question.juz_from",
+   "fieldname": "juz_number",
+   "fieldtype": "Data",
+   "label": "Juz Number",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-06-01 15:16:36.118187",
+ "modified": "2022-06-09 08:46:44.035434",
  "modified_by": "Administrator",
  "module": "Jamiat Ul Huffaz",
  "name": "Question Group Table",

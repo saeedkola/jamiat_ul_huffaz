@@ -10,6 +10,10 @@
   "surah",
   "ayah_from",
   "ayah_to",
+  "column_break_5",
+  "surah_name",
+  "juz_from",
+  "section_break_9",
   "ayah",
   "text_indopak",
   "text_arabic"
@@ -60,11 +64,29 @@
    "fieldname": "override_ayah",
    "fieldtype": "Check",
    "label": "Override Ayah"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "surah_name",
+   "fieldtype": "Data",
+   "label": "Surah Name"
+  },
+  {
+   "fieldname": "juz_from",
+   "fieldtype": "Data",
+   "label": "Juz From"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-06-06 22:46:45.606352",
+ "modified": "2022-06-09 08:26:30.508289",
  "modified_by": "Administrator",
  "module": "Jamiat Ul Huffaz",
  "name": "Question",

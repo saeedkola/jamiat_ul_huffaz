@@ -11,6 +11,20 @@ class Question(Document):
 			surah = self.surah
 			ayah_from = self.ayah_from
 			ayah_to = self.ayah_to
+
+			juz_f_url = "https://api.quran.com/api/v4/verses/by_key/{}:{}".format(surah,ayah_from)
+			response_f = requests.request("GET", juz_f_url, headers={}, data={})
+			res_f_json = response_f.json()
+			if res_f_json['verse']['juz_number']:
+				self.juz_from = res_f_json['verse']['juz_number']
+
+			surah_url = "https://api.quran.com/api/v4/chapters/{}".format(surah)
+			response_surah = requests.request("GET", surah_url, headers={}, data={})
+			res_surah_json = response_surah.json()
+
+			if res_surah_json['chapter']['name_arabic']:
+				self.surah_name = res_surah_json['chapter']['name_arabic']
+
 			text_indopak = ""
 			text_arabic = ""
 			if ayahs:
